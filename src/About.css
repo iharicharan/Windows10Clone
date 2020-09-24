@@ -1,0 +1,18 @@
+.hari{
+    animation:hari infinite;
+    margin-top:40px;
+   margin-left:20px;
+    
+    
+}
+@keyframes hari{
+    from{
+        transform:translateY(10px); 
+       
+    }
+    to{
+        transform:translateY(50px); 
+       
+    }
+    
+}

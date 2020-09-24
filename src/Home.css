@@ -1,0 +1,338 @@
+
+#icon{font-size:30px;
+    margin-left:10px;
+    margin-top:5px;
+    color:rgb(29, 63, 29);
+    
+}
+
+figure{
+    display:flex;
+    justify-content: center;
+}
+#user{
+    font-size:18px;
+    color:white;
+    background-color:rgb(29, 71, 29);
+    padding:9px;
+    margin-top:10px;
+   
+    
+}
+#box,#s3{font-size:14px;
+background-color:white;
+color:black;
+box-shadow: 0 0 2px 1px rgba(59, 57, 57, 0.774);
+width:300px;
+padding:10px 12px;
+height:490px;
+float:left;
+margin-right:10px;
+margin-left:30px;
+
+float:left;
+}
+
+#s3{
+  margin-top:10px;
+    height:300px; 
+   
+}
+p{
+    margin-bottom: 1px;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit]{
+  width:240px;
+  padding:6px;
+  
+  
+}
+
+input[type=text]:invalid,
+input[type=email]:invalid,
+input[type=password]:invalid,
+input[type=submit]:invalid{
+    border:2px solid red;
+}
+#box>#p{margin-top:3px;
+}
+input[type=submit]:hover{
+    transform:scale(0.8);
+}
+input[type=submit]{background-color:rgb(28, 75, 28);
+    box-shadow: 0 2px 3px black;
+border-radius:3px;
+border:none;
+color:white;
+width:275px;
+padding:10px;}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=submit]:focus{
+  background-color:#ddd;
+  border:none;
+}
+#btn{
+    margin-top:30px;
+}
+#s3{
+    display:none;
+    animation:move 1s;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(-500px);
+    }
+}
+
+.s4{
+    display:flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   background:linear-gradient( 100deg,rgb(100, 163, 100),rgb(96, 160, 96),rgb(30, 121, 30));
+   height:580px;
+   
+}
+
+.course{
+    width:550px;
+    margin-top:140px;
+    margin-left:10px;
+    color:white;
+  
+}
+
+.course>button{
+    background-color:rgb(17, 53, 17);
+    color:white;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0 2px 4px black;
+    margin-top:10px;
+}
+.course>button:hover{
+    transform: scale(0.9);
+}
+#box{
+    animation:animate 1s;
+    margin-top:10px;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: none;
+}}
+.fademove{
+    float: right;
+    animation:logomove 2s linear infinite;  
+    margin-top:70px;
+}
+@keyframes logomove 
+
+{
+    0% {
+         transform: translateY(-10px);
+    }
+    50%{
+        transform:translateY(10px)
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.homepage1{
+    animation:homepage 1s;
+    visibility: visible;
+}
+@keyframes homepage{
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+.fade-side{
+display:'flex';
+    color:black;
+    font-weight: 500;
+    justify-content: space-around;
+    background-color: #f3f8ed;
+    margin-top: 50px;
+    height: 680px;
+    animation: fade 5s;
+}
+.section1,.section2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.article1,.article2{
+    margin-top:10px;
+   display: none;
+
+
+}
+
+.article1>button,.article2>button{
+ padding: 10px; 
+ border:none;
+ color:white;
+ font-weight: bold;
+ box-shadow: 0 2px 3px black;
+ background-color: rgb(36, 136, 36);  
+ border-radius: 100%;
+ width:50px;
+ margin-left: 20px;
+ outline:none;
+ cursor: pointer;
+ 
+}
+
+.article1>button:active,.article2>button:active{
+    transform: scale(0.7);
+    background-color: rgb(21, 61, 21);
+  
+   
+}
+@keyframes fade{
+    0%{
+    opacity: 0.01;
+    transform: translateX(-200px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+      transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    transform:none;
+  }
+     
+}
+.fade-side>section>div>img{
+    width:295px;
+    height:150px;
+    background-position: center;
+    
+    margin-left: 2px;
+
+}
+.fade-side>section>div{
+    margin-top:30px;
+    width:300px;
+    height:230px;
+    background-color: white;
+    box-shadow: 0 2px 3px black;
+}
+.fade-side>section>div>p{
+   width:220px;
+   margin-left: 20px;
+   font-size:15px;
+}
+.fade-side>section>div>button{
+    background-color:rgb(20, 85, 20);
+    color:white;
+    float:right;
+    width:70px;
+    margin-right:5px;
+    border:none;
+    border-radius: 3px;
+}
+#a2{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#a2>div>p{
+    width:280px;
+}
+
+.login1>button{
+  
+    background-color: rgb(17, 46, 17);
+    z-index: 988;
+    color:white;
+    padding:5px;
+    width:140px;
+   margin-top:10px;
+   font-size:14px;
+    border:none;
+    box-shadow: 0 2px 3px black;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+
+@media(max-width:766px){
+    .article1,.article2{display: block;}
+    
+    .s4{
+        font-size:15px;
+        height:600px;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .s4>div>.fademove{
+       height:250px;
+      margin-top: 1px;
+      width:350px;
+      margin-left: 10px;
+    }
+.s4>#form{
+    margin-top:1px;
+    position: relative;
+}
+    .s4>div{
+        margin-top:10px;
+    }
+    .s4>.course{
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .s4>.course>h1{
+        font-size:25px;
+    }
+    .s4>.course>h3{
+        font-size:20px;
+    }
+}
+@media(max-width:766px){
+.fade-side>article{
+   margin-left: 30px;
+   margin-right: 30px;
+  
+}
+.fade-side{
+    animation: gud;
+}
+@keyframes gud{
+    0%{
+        transform: none;
+    }
+}
+        #python,#react,#javascript,#java,#c,#sql{
+            display:none;
+        }
+        #python,#react,#javascript,#java,#c,#sql,#node,#graph{
+            animation:zoom 1s;
+        }
+@keyframes zoom {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+   }
+
+
+
