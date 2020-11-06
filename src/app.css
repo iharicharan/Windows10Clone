@@ -1,0 +1,199 @@
+.box{
+    border: 40px solid black;
+     background:url('img/windows10.jpg');
+     background-position: center;
+     width:86%;
+     height: 78vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+   margin-left:50px;
+   
+   margin-top:20px;
+   box-shadow: inset 0 0 4px 4px rgb(75, 74, 74),0 4px 6px rgba(22, 19, 19, 0.445);
+   
+   }
+   body{
+     background-color: rgba(0, 0, 0, 0.836);
+   }
+   .res-box{
+    background:url('img/windows10.jpg');
+    width:100%;
+ height:92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   border:none;
+   
+   }
+   .res-footer{
+     display: flex;
+     justify-content: space-around;
+    position: fixed;
+    left:0;
+    bottom:0;
+     background-color: black;
+     color:white;
+     width:100%;
+     padding:9px;
+    
+   }
+   
+   #res-header{
+     position: fixed;
+     top:0;
+  padding: 10px;
+     background-color: black;
+     color:white;
+     width:100%;
+left:0;
+right:0;
+     display:flex;
+     justify-content: space-between;
+   }
+   
+   #files{
+   margin-left:150px;
+   }
+   #flode:active{
+transform: scale(0.8);
+   }
+   
+   body{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 14px;
+   }
+   .box>img{
+       width:72.7rem;
+       height:79vh;
+       z-index:998;
+       margin-top: 2px;
+      margin-left: 2px;
+   }
+   #icon-libeary1{
+     margin-left: 20px;
+     font-size: 30px;
+     margin-top: 40px;
+   display: block;
+   }
+   .fa-desktop{
+     color:rgb(240, 242, 250);
+    -webkit-text-stroke: 0.5px black;
+   }
+   #icon-edge{
+     color:rgb(34, 80, 148);
+    -webkit-text-stroke: 0.5px black;
+    margin-top: 20px;
+   }
+   .fa-trash-o{
+     color:rgb(129, 129, 112);
+     margin-top: 20px;
+     -webkit-text-stroke: 0.5px black;
+   }
+   .box1{
+     background-color:#080d13;
+     width:72.1rem;
+     height:37px;
+     margin-left: 3px;
+     display: flex;
+    align-items: center;
+   position: absolute;
+   bottom:87px;
+    
+   }
+   .box1>img{
+     width:30px;
+     height:32px;
+     
+     
+   }
+   .fa-windows{
+     color:white;
+     font-size:20px;
+     margin-left:13px;
+   }
+   .fa-windows:hover{
+     color:rgb(1, 157, 219);
+     
+     }
+   #win1{
+     width:30px;
+     height:35px;
+     margin-left: 3px;
+   }
+   #edge{
+     margin-left: 20px;
+     color:rgb(18, 83, 109);
+     font-size: 20px;
+   }
+   #floder{
+     margin-left: 20px;
+     font-size: 22px;
+     color:rgba(214, 214, 154, 0.589);
+   }
+   #chrome{
+     color:rgb(18, 83, 109);
+   margin-left: 20px;
+   font-size: 20px;
+   }
+   #chrome:hover,#edge:hover{
+     opacity: 0.3;
+     color:rgb(80, 160, 192)
+   }
+   #floder:hover{
+     opacity: 0.7;
+     color:rgb(179, 179, 49);
+   }
+   #txt1{
+       height: 29px;
+       width:15rem;
+       margin-left: 10px;
+   }
+      #people{
+        margin-left: 28rem;
+        color:white;
+      }
+   #angle-up,#wifi,#battery,#speaker{
+     margin-left: 9px;
+     font-size: 19px;
+     color:white;
+   }
+   #txt-1,#txt-2{
+     color:white;
+     font-size: 14px;
+     margin-left:10px;
+   }
+   #people:hover,#txt-1:hover,#txt-2:hover,#angle-up:hover,#wifi:hover,#battery:hover,#speaker:hover{
+     opacity: 0.6;
+   }
+   #txt-2{
+     width:10px;
+   }
+   .header-nav{
+       
+      position: absolute;
+   }
+   
+   
+   .f1{
+       position: absolute;
+     top:530px;
+     color:rgb(228, 209, 209);
+     margin-left:40rem;
+     font-size: large;
+     margin-top: 3.2rem;
+     font-weight: 900;
+   }
+   #layout{
+     display:none;
+   }
+   #layout-box-middle>p>span{
+     margin-left: 15px;
+   }
+   .box1>.fa-search{
+    display:'none';
+    color:white;
+  }
+  
+  
+   
+   
