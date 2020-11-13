@@ -11,6 +11,7 @@ function click(){
     var x=document.getElementById('layout');
     if(x.style.display==='none'){
       x.style.display='flex'
+      x.style.cursor='pointer'
   }
   else{
     x.style.display='none'
@@ -36,7 +37,7 @@ function click(){
     <section className='box'>
     
    
-    <div id='layout'>
+    <div id='layout' style={{display:'none'}}>
      <Layout />
    </div>
    <div id='icon-libeary1'>
@@ -49,6 +50,7 @@ function click(){
  <input type='text' placeholder='Type here to search' id='txt1'/>
     <img src={win1} alt='win1' id='win1'/>
 <i className='fa fa-edge' id='edge'/>
+
 <NavLink to='/Files'><i className='fa fa-folder' id='floder'/></NavLink>
 <i className='fa fa-chrome' id='chrome'/>
 <i className='fa fa-notepad' id='note'/>

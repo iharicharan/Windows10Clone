@@ -42,7 +42,7 @@ const Desktop=({children})=>{
         
          <section id='section-right'>
         <span id='hide2'>START</span>
-         <div id='hide'>
+         <div id='hide' style={{display:'none'}}>
          <p>Dell</p>
          <p>Documents</p>
          <p>Pictures</p>
